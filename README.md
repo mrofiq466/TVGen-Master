@@ -25,7 +25,7 @@ DISK1: 10   # in GB
 DISK2: 10
 IFACE_IP1: 10.10.110.10   # if dhcp1 is false set to fix ip
 IFACE_IP2: default    # if dhcp2 is true set to name $(virsh net-list)
-IFACE_IP3: 30.10.110.100
+IFACE_IP3: 30.10.110.100  # use format ip class C (0.0.0.255)
 IFACE_IP4: 40.10.110.100
 CONSOLE: spice    # spice | vnc
 ```
