@@ -29,3 +29,5 @@ IFACE_IP3: 30.10.110.100  # use format ip class C (0.0.0.255)
 IFACE_IP4: 40.10.110.100
 CONSOLE: spice    # spice | vnc
 ```
+
+How to use, [README](https://git.djaringanq.my.id/deploy-kvm/tvgen/).
